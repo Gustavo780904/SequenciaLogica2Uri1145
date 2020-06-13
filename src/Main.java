@@ -12,6 +12,17 @@ public class Main {
 		X = sc.nextInt();
 		Y = sc.nextInt();
 		
+		for (int i = 1; i <= Y; i++) {
+						
+			System.out.print(i);
+			if (i % X != 0) {
+			System.out.print(" ");
+			}else {
+			System.out.println("");
+				}
+			}
+		
+
 		sc.close();
 	}
 
